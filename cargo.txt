@@ -1,0 +1,5 @@
+chuoi 1
+gao 2
+banh_chuoi 1
+
+1000
