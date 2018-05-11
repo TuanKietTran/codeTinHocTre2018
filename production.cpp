@@ -2,10 +2,11 @@
 
 
 
-void Production::init(string name, int cost, int made_time, int amount) {
+Production::Production(string name, int cost, int made_time, vector<Production> ingredient, int amount) {
 	this->name = name;
 	this->cost = cost;
 	this->made_time = made_time;
+	this->ingredient = ingredient;
 	this->amount = amount;
 }
 

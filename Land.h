@@ -3,9 +3,9 @@
 
 class Land
 {
-public:
+private:
 	Structure building;
-
+public:
 	Land(Structure building);
 	Structure getStructure();
 

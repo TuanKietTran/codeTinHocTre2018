@@ -21,7 +21,7 @@ public:
 	int data;
 	Production *next;
 
-	void init(string name, int cost, int made_time, int amount = 0);
+	Production(string name, int cost, int made_time, vector<Production> ingredient = {}, int amount = 0);
 	void addIngredients(Production& param);
 
 };
